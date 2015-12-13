@@ -3,7 +3,7 @@
 // Author      : Alejandro A
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Reverse puzzle for spotify
 //============================================================================
 
 #include <iostream>
@@ -17,7 +17,6 @@ int main() {
 	int input, output = 0; 			//	Initialize input
 	std::list<bool> inputBitList; 	//	Initialize lit of bits used to store the binary value of input
 
-	cout << "Enter your input: "; 	// 	Prompts user for input
 	cin >> input;					//	Collects input
 
 	//	Create list of bits
@@ -39,6 +38,4 @@ int main() {
 		++i;
 	}
 	cout << output; // prints Output on screen
-
 }
-
